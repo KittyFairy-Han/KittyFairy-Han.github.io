@@ -1,0 +1,108 @@
+/**
+work
+ */
+body{
+    background-image: url("../images/c-b4.jpg");
+    height: 750px;
+    overflow: hidden;
+}
+#work{
+    position: absolute;
+    top:50px;
+    width: 8000px;
+    height: 680px;
+    overflow: hidden;
+    transform: translateX(-6400px);
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+#work section{
+    float: left;
+    width: 400px;
+    height: 100%;
+    opacity: 0.5;
+    background-color: rgb(34, 34, 34);
+    background-size: cover;
+    transform: rotateY(60deg);
+    transform-origin: 200px;
+    transition: opacity .5s,background-position .5s,transform 100ms;
+}
+/*#work section:hover{*/
+    /*opacity: 1;*/
+    /*background-position: 0 -15px;*/
+/*}*/
+#work section:nth-of-type(1),#work section:nth-of-type(11){
+    background-image: url("../images/g1.jpg");
+}
+#work section:nth-of-type(2),#work section:nth-of-type(12){
+    background-image: url("../images/g2.jpg");
+}
+#work section:nth-of-type(3),#work section:nth-of-type(13){
+    background-image: url("../images/g3.jpg");
+}
+#work section:nth-of-type(4),#work section:nth-of-type(14){
+    background-image: url("../images/g4.jpg");
+}
+#work section:nth-of-type(5),#work section:nth-of-type(15){
+    background-image: url("../images/g5.jpg");
+}
+#work section:nth-of-type(6),#work section:nth-of-type(16){
+    background-image: url("../images/g6.jpg");
+}
+#work section:nth-of-type(7),#work section:nth-of-type(17){
+    background-image: url("../images/g7.jpg");
+}
+#work section:nth-of-type(8),#work section:nth-of-type(18){
+    background-image: url("../images/g8.jpg");
+}
+#work section:nth-of-type(9),#work section:nth-of-type(19){
+    background-image: url("../images/g9.jpg");
+}
+#work section:nth-of-type(10),#work section:nth-of-type(20){
+    background-image: url("../images/g4.jpg");
+}
+
+
+#work  .thumb  h4,#work  .thumb  h5,#work  .thumb  h6{
+    position: absolute;
+    left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+#work  .thumb  h4{
+    bottom: 150px;
+    color: white;
+}
+#work  .thumb  h5{
+    bottom: 175px;
+    color: #e74c4c;
+}
+.thumb  h6:first-of-type{
+    bottom: 100px;
+    color: white;
+}
+.thumb  h6{
+    bottom: 75px;
+    color: white;
+}
+
+
+
+.scrollbar{
+    width: 1536px;
+    height: 12px;
+    position: fixed;
+    background-color: #000;
+    left: 0;
+    bottom: 0;
+}
+.scrollbar div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #e74c4c;
+    height: 100%;
+    width: 180px;
+
+}

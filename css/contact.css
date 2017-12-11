@@ -1,0 +1,151 @@
+body{
+    overflow-y: auto;
+    /*background-image:url("../images/c-b2.gif"),url("../images/c-b.gif");*/
+    background-image: url("../images/c-b.gif");
+    background-size:contain;
+    background-repeat: no-repeat, repeat;
+}
+#contact{
+    top:50px
+}
+#contact .offices{
+    margin:75px 10%;
+    width: 80%;
+}
+#contact .offices .office{
+    width: 30%;
+}
+#contact  .office:nth-child(2){
+    margin: 0 5%;
+}
+#contact .offices .office h1{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 200px;
+    line-height: 100%;
+    border-bottom: #000000 solid 8px;
+    transform-origin: bottom;
+    transition: width .2s .4s,height .2s .6s;
+}
+#contact .offices .office:nth-child(2) h1{
+    transition: width .2s .8s,height .2s 1s;
+}
+#contact .offices .office:nth-child(3) h1{
+    transition: width .2s 1.2s,height .2s 1.4s;
+}
+.office h2{
+    top:-5px;
+    margin: 20px 0;
+    width: 100%;
+    font-size: 40px;
+    color: #e74c4c;
+    opacity: 0;
+    transition: all 1s .2s;
+}
+ .office:nth-child(2) h2{
+    transition: all .2s 1.2s;
+}
+.office:nth-child(3) h2{
+    transition: all .2s 1.4s;
+}
+.office .office-details{
+    width: 100%;
+    height: 75px;
+    opacity: 0;
+    transition: all .2s ;
+}
+.office:nth-child(2) .office-details{
+     transition: all .2s .2s;
+ }
+.office:nth-child(3) .office-details{
+    transition: all .2s .4s;
+}
+.office-details a.map{
+    padding: 10px 10%;
+    margin: 20px 0;
+    width: 30%;
+    height: 20px;
+    background: #000;
+    color: white;
+    transition: background-color 0.2s;
+}
+.office-details a.map:hover{
+    background-color: indianred;
+}
+ .office-details h5{
+    font-size: 14px;
+    color: #000000;
+}
+
+
+
+#contact .networks{
+    margin:75px 10%;
+    width: 80%;
+}
+#contact .networks li{
+    float: left;
+    top: 10px;
+    padding: 5%;
+    width: 20%;
+    border-top: #000000 solid 3px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#contact .networks li img{
+    width: 10%;
+}
+#contact .networks li:nth-of-type(2) img{
+    width: 6%;
+}
+#contact .networks li a{
+    width: 90%;
+}
+
+
+
+#contact .projects{
+    padding: 50px 5%;
+    width: 90%;
+    background-image: url("../images/C-b4.jpg");
+    background-size: cover;
+}
+#contact .projects .project{
+    position: relative;
+    float: left;
+    width: 25%;
+    margin: 5px 0;
+}
+#contact .projects h1,hr{
+    float: none;
+    margin: 30px 0;
+    padding: 0;
+    color: #e74c4c;
+    font-size: 50px;
+}
+#contact .projects .project h3,#contact .projects .project h5,#contact .projects .project h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contact .projects  hr, #contact .projects .project a,#contact .projects .project h3{
+    text-align: start;
+    color: white;
+}
+#contact .projects .project h5,#contact .projects .project h6{
+    color: #e74c4c;
+}
+#contact .projects .project a{
+    font-size: 10px;
+}
+#contact .projects .project h6::before {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    content: '';
+    width: 20px;
+    height: 4px;
+    background-color: #e74c4c;
+}
+
+

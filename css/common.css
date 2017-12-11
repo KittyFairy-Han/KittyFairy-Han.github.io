@@ -1,0 +1,402 @@
+
+@font-face {
+    font-family: navFont;
+    src: url(../fonts/EnglischeSchT.otf);/* 细 斜 艺*/
+}
+@font-face
+{
+    font-family: wrapFont;
+    src: url(../fonts/Callie.otf);/* 细 艺 短*/
+}
+
+@font-face
+{
+    font-family: titleFont;
+    src: url(../fonts/SilentReaction.ttf);
+}
+@font-face
+{
+    font-family: nameFont;
+    src: url(../fonts/Yellowtail.otf);/* 中 斜 短*/
+}
+@font-face
+{
+    font-family: subTitleFont;
+    src: url(../fonts/Jackey.ttf);/*粗 圆*/
+}
+@font-face
+{
+    font-family: pageFont;
+    src: url(../fonts/xinGothic.otf);/* 细 直 短*/
+}
+/* icon*/
+.icon.white {
+  background-image: url(../images/a-iconwhite.png);
+}
+.icon.icon-a-s {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 0.29585799%;
+}
+.icon.icon-academy-awards {
+  background-size: 900% 900%;
+  background-position: 12.72189349% 0.29585799%;
+}
+.icon.icon-ad {
+  background-size: 900% 900%;
+  background-position: 25.14792899% 0.29585799%;
+}
+.icon.icon-ad-age {
+  background-size: 900% 900%;
+  background-position: 37.5739645% 0.29585799%;
+}
+.icon.icon-adc {
+  background-size: 900% 900%;
+  background-position: 50% 0.29585799%;
+}
+.icon.icon-adce {
+  background-size: 900% 900%;
+  background-position: 62.4260355% 0.29585799%;
+}
+.icon.icon-addys {
+  background-size: 900% 900%;
+  background-position: 74.85207101% 0.29585799%;
+}
+.icon.icon-adobe {
+  background-size: 900% 900%;
+  background-position: 87.27810651% 0.29585799%;
+}
+.icon.icon-adtech {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 12.72189349%;
+}
+.icon.icon-adweek {
+  background-size: 900% 900%;
+  background-position: 12.72189349% 12.72189349%;
+}
+.icon.icon-aice {
+  background-size: 900% 900%;
+  background-position: 25.14792899% 12.72189349%;
+}
+.icon.icon-aicp {
+  background-size: 900% 900%;
+  background-position: 37.5739645% 12.72189349%;
+}
+.icon.icon-ana {
+  background-size: 900% 900%;
+  background-position: 50% 12.72189349%;
+}
+.icon.icon-andys {
+  background-size: 900% 900%;
+  background-position: 62.4260355% 12.72189349%;
+}
+.icon.icon-asc {
+  background-size: 900% 900%;
+  background-position: 74.85207101% 12.72189349%;
+}
+.icon.icon-award {
+  background-size: 900% 900%;
+  background-position: 87.27810651% 12.72189349%;
+}
+.icon.icon-awwwards {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 25.14792899%;
+}
+.icon.icon-big {
+  background-size: 900% 900%;
+  background-position: 12.72189349% 25.14792899%;
+}
+.icon.icon-brand-film {
+  background-size: 900% 900%;
+  background-position: 25.14792899% 25.14792899%;
+}
+.icon.icon-british-arrows {
+  background-size: 900% 900%;
+  background-position: 37.5739645% 25.14792899%;
+}
+.icon.icon-cannes-lions {
+  background-size: 900% 900%;
+  background-position: 50% 25.14792899%;
+}
+.icon.icon-ciclope {
+  background-size: 900% 900%;
+  background-position: 62.4260355% 25.14792899%;
+}
+.icon.icon-clios {
+  background-size: 900% 900%;
+  background-position: 74.85207101% 25.14792899%;
+}
+.icon.icon-communication-arts {
+  background-size: 900% 900%;
+  background-position: 87.27810651% 25.14792899%;
+}
+.icon.icon-creativity {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 37.5739645%;
+}
+.icon.icon-css-design-awards {
+  background-size: 900% 900%;
+  background-position: 12.72189349% 37.5739645%;
+}
+.icon.icon-design-licks {
+  background-size: 900% 900%;
+  background-position: 25.14792899% 37.5739645%;
+}
+.icon.icon-dga {
+  background-size: 900% 900%;
+  background-position: 37.5739645% 37.5739645%;
+}
+.icon.icon-emmy {
+  background-size: 900% 900%;
+  background-position: 50% 37.5739645%;
+}
+.icon.icon-epica {
+  background-size: 900% 900%;
+  background-position: 62.4260355% 37.5739645%;
+}
+.icon.icon-eurobest {
+  background-size: 900% 900%;
+  background-position: 74.85207101% 37.5739645%;
+}
+.icon.icon-fitc {
+  background-size: 900% 900%;
+  background-position: 87.27810651% 37.5739645%;
+}
+.icon.icon-fom {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 50%;
+}
+.icon.icon-fox {
+  background-size: 900% 900%;
+  background-position: 12.72189349% 50%;
+}
+.icon.icon-fwa {
+  background-size: 900% 900%;
+  background-position: 25.14792899% 50%;
+}
+.icon .icon-cannes-divons{
+    background-size: 900% 900%;
+    background-position:25.14792899% 50% ;
+}
+.icon.icon-fwam {
+  background-size: 900% 900%;
+  background-position: 37.5739645% 50%;
+}
+.icon.icon-glaad {
+  background-size: 900% 900%;
+  background-position: 50% 50%;
+}
+.icon.icon-globe {
+  background-size: 900% 900%;
+  background-position: 62.4260355% 50%;
+}
+.icon.icon-google {
+  background-size: 900% 900%;
+  background-position: 74.85207101% 50%;
+}
+.icon.icon-horizon {
+  background-size: 900% 900%;
+  background-position: 87.27810651% 50%;
+}
+.icon.icon-huga-award {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 62.4260355%;
+}
+.icon.icon-lia {
+  background-size: 900% 900%;
+  background-position: 12.72189349% 62.4260355%;
+}
+.icon.icon-lovies {
+  background-size: 900% 900%;
+  background-position: 25.14792899% 62.4260355%;
+}
+.icon.icon-mashies {
+  background-size: 900% 900%;
+  background-position: 37.5739645% 62.4260355%;
+}
+.icon.icon-mcm {
+  background-size: 900% 900%;
+  background-position: 50% 62.4260355%;
+}
+.icon.icon-mobius {
+  background-size: 900% 900%;
+  background-position: 62.4260355% 62.4260355%;
+}
+.icon.icon-mtv-o {
+  background-size: 900% 900%;
+  background-position: 74.85207101% 62.4260355%;
+}
+.icon.icon-mtv-vma {
+  background-size: 900% 900%;
+  background-position: 87.27810651% 62.4260355%;
+}
+.icon.icon-mvpa {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 74.85207101%;
+}
+.icon.icon-namic-emma {
+  background-size: 900% 900%;
+  background-position: 12.72189349% 74.85207101%;
+}
+.icon.icon-new-york-festivals {
+  background-size: 900% 900%;
+  background-position: 25.14792899% 74.85207101%;
+}
+.icon.icon-nytimes {
+  background-size: 900% 900%;
+  background-position: 37.5739645% 74.85207101%;
+}
+.icon.icon-promax {
+  background-size: 900% 900%;
+  background-position: 50% 74.85207101%;
+}
+.icon.icon-promo {
+  background-size: 900% 900%;
+  background-position: 62.4260355% 74.85207101%;
+}
+.icon.icon-rushes {
+  background-size: 900% 900%;
+  background-position: 74.85207101% 74.85207101%;
+}
+.icon.icon-shoot {
+  background-size: 900% 900%;
+  background-position: 87.27810651% 74.85207101%;
+}
+.icon.icon-show {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 87.27810651%;
+}
+.icon.icon-sia {
+  background-size: 900% 900%;
+  background-position: 12.72189349% 87.27810651%;
+}
+.icon.icon-soundbutlers {
+  background-size: 900% 900%;
+  background-position: 25.14792899% 87.27810651%;
+}
+.icon.icon-spikes {
+  background-size: 900% 900%;
+  background-position: 37.5739645% 87.27810651%;
+}
+.icon.icon-strategies {
+  background-size: 900% 900%;
+  background-position: 50% 87.27810651%;
+}
+.icon.icon-sxsw {
+  background-size: 900% 900%;
+  background-position: 62.4260355% 87.27810651%;
+}
+.icon.icon-t1o2o3l4 {
+  background-size: 900% 900%;
+  background-position: 74.85207101% 87.27810651%;
+}
+.icon.icon-tech-crunch {
+  background-size: 900% 900%;
+  background-position: 87.27810651% 87.27810651%;
+}
+.icon.icon-the-bessies {
+  background-size: 900% 900%;
+  background-position: 99.70414201% 0.29585799%;
+}
+.icon.icon-the-mark-awards {
+  background-size: 900% 900%;
+  background-position: 99.70414201% 12.72189349%;
+}
+.icon.icon-the-one-show {
+  background-size: 900% 900%;
+  background-position: 99.70414201% 25.14792899%;
+}
+.icon.icon-the-webby-awards {
+  background-size: 900% 900%;
+  background-position: 99.70414201% 37.5739645%;
+}
+.icon.icon-time {
+  background-size: 900% 900%;
+  background-position: 99.70414201% 50%;
+}
+.icon.icon-vimeo {
+  background-size: 900% 900%;
+  background-position: 99.70414201% 62.4260355%;
+}
+.icon.icon-welovead {
+  background-size: 900% 900%;
+  background-position: 99.70414201% 74.85207101%;
+}
+.icon.icon-wma {
+  background-size: 900% 900%;
+  background-position: 99.70414201% 87.27810651%;
+}
+.icon.icon-yda {
+  background-size: 900% 900%;
+  background-position: 0.29585799% 99.70414201%;
+}
+/* * * * * * * *  * * * * * * * * * * * * * 默认style * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+body,header,main,nav,div,section,ul,span,li,img,picture,a,button,footer{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+body{
+    max-width: 1519px;
+    min-width: 760px;
+    min-height: 750px;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,hr{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+h1{
+    font-family: wrapFont;
+    font-size: 50px;
+}
+h2{
+    font-family: titleFont;
+    font-size: 40px;
+}
+h3{
+      font-family: subTitleFont;
+      font-size: 30px;
+  }
+h4{
+    font-family: subTitleFont;
+    font-size: 25px;
+}
+h5{
+    font-family: pageFont;
+    font-size: 20px;
+}
+h6{
+    font-family: pageFont;
+    font-size: 15px;
+}
+a{
+    font-family: navFont;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+main{
+    position: absolute;
+    top: 50px;
+}
+.resi{
+    position: fixed;
+    display: none;
+    content: 'resize';
+    padding: 250px 300px;
+    width: 160px;
+    height: 250px;
+    z-index: 2000;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 100px;
+}

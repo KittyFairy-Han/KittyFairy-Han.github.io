@@ -1,0 +1,161 @@
+/**
+directors
+ */
+#directors .line{
+    position: absolute;
+    left: 49.75%;
+    width: 0.5%;
+    height: 700px;
+    margin: 0 auto;
+    z-index: 10;
+    background-color: #000;
+    transform: skew(-5deg);
+    transition: padding .5s;
+}
+#directors .line-in{
+    width: 100%;
+    height: 0;
+    background-color: #fff;
+    transition: height .5s .2s;
+}
+
+
+
+
+#directors .left,#directors .right{
+    position: absolute;
+    top:0;
+    width: 0;
+    height: 700px;
+    z-index: 1;
+    transform: skew(-5deg);
+    background-color: black;
+    transition: width .2s ;
+}
+#directors .left{
+    left: -5%;
+}
+#directors .right{
+    right:-5%;
+}
+
+
+
+
+
+#directors .left-content,#directors .right-content{
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 700px;
+    z-index: 10;
+    background: url('../images/c-b.gif') repeat;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    transform: skew(-5deg);
+    transition: width .5s .7s;
+}
+#directors .left-content{
+    left: -5%;
+    text-align: left;
+
+}
+#directors .right-content{
+    right: -5%;
+    text-align: right;
+}
+
+
+
+
+#directors .left-main,.right-main{
+    position: absolute;
+    top: 100px;
+    width: 0;
+    height: 400px;
+    z-index: 10;
+    overflow: hidden;
+    font-size: 60px;
+    color: black;
+    transition: width .5s .7s,color 1s,left .5s,right .5s;
+}
+#directors .left-main{
+    left: 120px;
+    text-align: left;
+}
+#directors .right-main{
+    right: 120px;
+    text-align: right;
+}
+
+
+
+
+#directors .left-main:hover{
+    left: 160px;
+    color: white;
+}
+#directors .left-main:hover .redblock{
+    width: 25%;
+}
+#directors .left-main:hover .blackblock{
+    width:50%;
+    background-color: #e74c4c;
+}
+#directors .right-main:hover{
+    right: 160px;
+    color: white;
+}
+#directors .right-main:hover .redblock{
+    width: 25%;
+}
+#directors .right-main:hover .blackblock{
+    width:50%;
+    background-color: #e74c4c;
+}
+
+
+
+
+
+#directors .redblock{
+    display: inline-block;
+    background-color: #e74c4c;
+    width: 5%;
+    height: 4px;
+    transition: width .5s;
+}
+#directors .blackblock {
+    display: inline-block;
+    background-color: #2f2f2f;
+    width: 10%;
+    height: 9px;
+    margin-top: 60px;
+    transition: width .5s;
+}
+.left-main .redblock,.left-main .blackblock{
+    float: left;
+}
+.right-main .redblock, .right-main .blackblock{
+    float: right;
+}
+
+
+
+
+#directors h1{
+    float: none;
+    text-align: inherit;
+    font-size: 90px;
+    line-height: 110px;
+    letter-spacing: 4px;
+}
+#directors p{
+    margin: 30px 0 20px 10%;
+    width: 90%;
+    font-size: 14px;
+    line-height: 24px;
+}
+#directors p:last-child{
+    margin: 30px 10% 20px 0;
+}

@@ -1,0 +1,153 @@
+body{
+    overflow: auto;
+}
+main#vr360{
+    top: 50px;
+}
+#vr360 .about{
+    padding: 50px 5%;
+    width: 90%;
+    background-image: url("../images/vr360-about.jpg");
+}
+#vr360 .about h2{
+    color: #e74c4c;
+}
+#vr360 .about h1{
+    color: white;
+}
+#vr360 .about p {
+    margin: 0 0;
+    width: 600px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    font-family: "LetterGothicStd-BoldSlanted", "Lucida Console", Monaco, monospace;
+}
+
+
+
+
+#vr360 .reel{
+    padding: 100px 5%;
+    width: 90%;
+    background-image: url("../images/v-b1.jpg");
+    background-size: cover;
+}
+#vr360 .reel h2,#vr360 .reel div{
+    margin: 10px 5%;
+    width: 90%;
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+}
+#vr360 .reel div{
+    width: 15%;
+    height: 60px;
+    z-index: 1;
+    text-align: center;
+    vert-align: middle;
+    font-size: 40px;
+    font-family: titleFont;
+    border: solid white 3px;
+    transition: all .3s;
+    overflow: hidden;
+}
+#vr360 .reel div:after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: -30px;
+    width: 0;
+    height: inherit;
+    z-index: -1;
+    background-color: #ffffff;
+    transform: skew(-15deg);
+    transition: width .3s;
+}
+#vr360 .reel div:hover{
+    z-index: 2;
+    color: #000000;
+}
+#vr360 .reel div:hover:after{
+    width: 140%;
+}
+
+
+
+
+#vr360 .projects{
+    position: relative;
+    padding: 50px 5%;
+    width: 90%;
+    background-image: url("../images/v-b2.jpg");
+    background-size: cover;
+}
+#vr360 .projects .project{
+    position: relative;
+    float: left;
+    width: 30%;
+    margin: 5px 1.5%;
+    transition: all 0.4s;
+
+}
+#vr360 .projects h1,hr{
+    float: none;
+    margin: 20px 0;
+    padding: 0;
+    color: white;
+    font-size: 50px;
+    opacity: 0.5;
+}
+#vr360 .projects .project h4{
+    position: absolute;
+    left: 4%;
+    bottom:30px ;
+    z-index: 10;
+    color: #e74c4c;
+    transition: all 0.4s;
+}
+#vr360 .projects .project h3{
+    position: absolute;
+    left: 4%;
+    bottom:10px ;
+    z-index: 10;
+    color: #ffffff;
+    transition: all 0.4s;
+
+}
+#vr360 .projects .project img{
+     width: 100%;
+     opacity: 0.8;
+ }
+#vr360 .projects a:hover h4{
+    bottom:40px ;
+}
+#vr360 .projects a:hover h3{
+    bottom:20px ;
+}
+#vr360 .projects a:hover img{
+    opacity: 1;
+}
+
+
+
+
+#vr360 .contact{
+    padding: 50px 5%;
+    width: 90%;
+    background-image: url("../images/v-b3.jpg");
+}
+#vr360 .contact h1,hr{
+    float: none;
+    margin: 20px 0;
+    padding: 0;
+    color: white;
+    font-size: 50px;
+    opacity: 0.5;
+}
+#vr360 .contact h4,#vr360 .contact a{
+    text-align: start;
+    margin: 50px 0;
+    color: #e74c4c;
+}

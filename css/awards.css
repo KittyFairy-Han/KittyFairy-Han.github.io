@@ -1,0 +1,126 @@
+body{
+    overflow: auto;
+    background: url('../images/a-b.gif') repeat;
+}
+#awards{
+   top:50px;
+}
+#awards .awards-header .frame{
+    margin-right: 2%;
+    overflow: hidden;
+    width: 38%;
+    height: 300px;
+}
+.awards-header .box1,.box2,.box3{
+    position: absolute;
+    top: 0;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    font-size: 250px;
+    line-height: 300px;
+    font-weight: bold;
+    color: #e74c4c;
+    opacity: 0;
+}
+#awards .awards-header .box1{
+    left: 0;
+    transition: top 1s .6s,opacity .5s .6s;
+}
+#awards .awards-header .box2{
+    left: 33%;
+    transition: top 1s .3s,opacity .5s .6s;
+}
+#awards .awards-header .box3{
+    left: 66%;
+    transition: top 1s ,opacity .5s .6s;
+}
+#awards .awards-header .box span{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+
+
+
+#awards .awards-header .right{
+    overflow: hidden;
+    width: 60%;
+    height: 300px;
+}
+#awards .awards-header .right h1{
+    font-size: 150px;
+    line-height: 250px;
+    font-family: "TrumpGothicEastBold";
+    border-bottom: 20px solid #2f2f2f;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+
+#awards section{
+    margin: 60px 10%;
+    width: 80%;
+}
+@keyframes award-feature-slide-in {
+    from {
+        transform:rotateY(90deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+#awards .featured div {
+    display: inline-block;
+    margin: 0 5%;
+    width:121px;
+    font-size: 45px;
+    color: #e74c4c;
+    animation:award-feature-slide-in 1s  ;
+}
+#awards .featured div hr{
+    width: 70%;
+    margin: 50px 15%;
+}
+#awards .featured div h2{
+    text-align: center;
+}
+.icon {
+    display: block;
+    margin: 0 20%;
+    width: 60%;
+    height: 60px;
+    background: url('../images/a-icon.png'),repeat;
+}
+
+
+
+#awards .projects{
+    margin: 60px 10%;
+    width: 80%;
+}
+#awards .projects ul{
+    margin: 10px 0;
+    padding: 10px 0 10px 0;
+    border-bottom: 3px solid #909090;
+    /*box-shadow: 0 2px 2px #909090;*/
+}
+#awards .projects ul:last-of-type{
+    padding: 10px 0 60px 0;
+
+}
+#awards .projects li{
+    float: left;
+    margin: 0 5%;
+    width: 10%;
+
+    color: #909090;
+    font-size: 14px;
+    font-family: "LetterGothicStd-BoldSlanted", "Lucida Console", Monaco, monospace;
+}
+#awards .projects h4{
+    color: indianred;
+}
